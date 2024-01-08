@@ -1,0 +1,59 @@
+.header-main-div {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.logo-text {
+  font-size: 2rem;
+  color: #333;
+}
+
+.code-icon-img {
+  height: 3rem;
+  width: 3rem;
+}
+
+.nav-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.nav-li {
+  padding: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #333;
+}
+
+.nav-li:hover {
+  color: #e63355;
+}
+
+.get-in-touch-btn {
+  background-color: #e63355;
+  border-radius: 10px;
+  color: white;
+  border: 2px solid white;
+  transition: all 0.5s;
+}
+
+.get-in-touch-btn:hover {
+  background-color: white;
+  border: 2px solid #e63355;
+  color: #333;
+}
