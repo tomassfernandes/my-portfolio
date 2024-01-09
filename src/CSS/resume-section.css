@@ -1,3 +1,7 @@
+/*-----------------------------
+--------- 1st INNER DIV ---------
+------------------------------*/
+
 .resume-inner-div {
   max-width: 120rem;
   margin: 0 auto;
@@ -70,8 +74,141 @@
   -webkit-text-stroke: 1px #4f61b9; /* For Webkit browsers like Chrome and Safari */
 }
 
-.skills-div {
+.skills-main-div {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
+}
+
+.skills-div {
+  display: flex;
+  gap: 10rem;
+}
+
+.skills-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.code-languages-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.code-language-icon {
+  width: 3.6rem;
+  height: 3.6rem;
+}
+
+.html-icon {
+  width: 3.1rem;
+  height: 3.1rem;
+}
+
+.skills-writen-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 1.8rem;
+}
+
+.skills-writen-inner-div {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.skills-writen-p {
+  background-color: #20274a;
+  padding: 0.8rem 2.2rem;
+  border-radius: 10px;
+  color: white;
+}
+
+/*-----------------------------
+--------- 2nd INNER DIV ---------
+------------------------------*/
+
+.resume-inner-div-2 {
+  background-color: #20274a;
+}
+
+/*-----------------------------
+--------- RIGHT COLUMN ---------
+------------------------------*/
+
+.certificates-box {
+  position: absolute;
+  top: -12rem;
+  left: 0;
+  padding: 3.6rem;
+  background-color: #e63355;
+  display: flex;
+  flex-direction: column;
+  gap: 3.6rem;
+}
+
+.certificates-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.certificates-div {
+  display: flex;
+  gap: 2.2rem;
+}
+
+.certificates-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  cursor: pointer;
+  max-width: 20rem;
+}
+
+.certificates-inner-div a {
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.certificates-inner-div a:hover {
+  color: #20274a;
+}
+
+.certificates-inner-div p {
+  color: rgba(233, 233, 233, 0.769);
+}
+
+/*-----------------------------
+--------- RIGHT COLUMN ---------
+------------------------------*/
+
+.language-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.language-div {
+  display: flex;
+  align-items: center;
+  gap: 5.2rem;
+}
+
+.language-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.language-inner-div p {
+  color: white;
 }

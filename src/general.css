@@ -16,3 +16,16 @@ html {
   font-family: "Noto Serif", serif;
   font-style: italic;
 }
+
+.heading-terciary {
+  font-size: 1.2rem;
+  color: #20274a;
+}
+
+.heading-secondary-white {
+  color: white;
+}
+
+.heading-terciary-white {
+  color: white;
+}
