@@ -1,0 +1,37 @@
+.lottie-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 120rem;
+  padding-top: 4.8rem;
+  margin: 0 auto;
+}
+
+.lottie {
+  width: 50%;
+}
+
+.intro-div {
+  background-color: #e63355;
+  margin-top: -1rem;
+  padding: 12rem 22rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.heading-primary {
+  color: white;
+  font-size: 3.2rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.intro-div p {
+  color: white;
+  font-size: 1.6rem;
+  text-align: center;
+  line-height: 1.7;
+}

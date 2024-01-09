@@ -1,0 +1,77 @@
+.resume-inner-div {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.resume-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.resume-column {
+  display: flex;
+  flex-direction: column;
+  padding: 3.6rem;
+  position: relative;
+}
+
+/*-----------------------------
+--------- LEFT COLUMN ---------
+------------------------------*/
+
+.resume-education-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-education-text-div {
+  display: flex;
+  gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.resume-bullet-point {
+  height: 2rem;
+  width: 2rem;
+}
+
+.resume-education-date {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #20274a;
+}
+
+.resume-education-text-inner-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-education-institution-p {
+  font-size: 1.4rem;
+  color: #20274a;
+}
+
+/*-----------------------------
+--------- RIGHT COLUMN ---------
+------------------------------*/
+
+.resume-title-div {
+  margin-top: -7rem;
+  align-self: flex-end;
+  margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  line-height: 0.9;
+}
+
+.resume-title-p {
+  font-size: 6.4rem;
+  color: transparent;
+  -webkit-text-stroke: 1px #4f61b9; /* For Webkit browsers like Chrome and Safari */
+}
+
+.skills-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
