@@ -137,7 +137,7 @@
 }
 
 /*-----------------------------
---------- RIGHT COLUMN ---------
+--------- LEFT COLUMN ---------
 ------------------------------*/
 
 .certificates-box {
@@ -187,9 +187,42 @@
   color: rgba(233, 233, 233, 0.769);
 }
 
+.socials-main-div {
+  position: absolute;
+  bottom: 6rem;
+  left: 0;
+  padding: 3.6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.socials-div {
+  display: flex;
+  align-items: center;
+  gap: 2.2rem;
+}
+
+.socials-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.socials-icon:hover {
+  fill: #e63355;
+}
 /*-----------------------------
 --------- RIGHT COLUMN ---------
 ------------------------------*/
+
+.resume-column-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
 
 .language-main-div {
   display: flex;
@@ -211,4 +244,38 @@
 
 .language-inner-div p {
   color: white;
+}
+
+.hobbies-main-div {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.hobbies-div {
+  display: flex;
+  gap: 4.2rem;
+}
+
+.hobbies-inner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.hobbies-icon {
+  width: 6rem;
+  height: 6rem;
+}
+
+.hobbies-beer-icon {
+  width: 5.6rem;
+  height: 5.6rem;
+  margin-bottom: 0.4rem;
+}
+
+.hobbies-inner-div p {
+  color: white;
+  text-align: center;
 }
