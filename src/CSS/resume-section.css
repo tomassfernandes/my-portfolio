@@ -1,3 +1,7 @@
+.resume-section {
+  position: relative;
+}
+
 /*-----------------------------
 --------- 1st INNER DIV ---------
 ------------------------------*/
@@ -278,4 +282,26 @@
 .hobbies-inner-div p {
   color: white;
   text-align: center;
+}
+
+.custom-shape-divider-bottom-1704891408 {
+  position: absolute;
+  bottom: -15rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704891408 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 150px;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1704891408 .shape-fill {
+  fill: #20274a;
 }

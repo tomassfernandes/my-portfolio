@@ -10,13 +10,13 @@ export default function IntroSection() {
       <div className="intro-div">
         <h1 className="heading-primary">Hi, I'm Tomás. Nice to meet you!</h1>
         <p>
-          I'm a coding enthusiast, deeply engrossed in front-end development and
-          fueled by a love for photo and video aesthetics. Despite earning a
-          Bachelor's degree in Sports Science, I've pivoted to pursue a newfound
-          passion in coding. As a self-taught learner, I navigate the coding
-          landscape through online courses, showcasing my autonomy and
-          problem-solving skills. Committed to continuous improvement, I bring a
-          fresh perspective to development. Let's infuse creativity into code!
+          Passionate front-end developer with a keen eye for photo aesthetics.
+          Bachelor's degree in Sports Science, now embarking on a coding
+          journey. Self-taught and committed to continuous improvement, I bring
+          autonomy and problem-solving skills to development. Excited to
+          contribute and grow in a dynamic development environment, bringing
+          freshness and dedication to your projects by giving me the opportunity
+          to collaborate and learn. Let's create something amazing together!
         </p>
       </div>
     </section>
