@@ -10,6 +10,23 @@ export default function HomePage() {
       <IntroSection />
       <ResumeSection />
       <ProjectsSection />
+      <div className="scroll-div">
+        <div className="scroll-shape-div">
+          <div className="scroll-losange"></div>
+        </div>
+
+        <div className="scroll-shape-div">
+          <div className="scroll-losange"></div>
+        </div>
+
+        <div className="scroll-shape-div">
+          <div className="scroll-losange"></div>
+        </div>
+
+        <div className="scroll-shape-div">
+          <div className="scroll-losange"></div>
+        </div>
+      </div>
     </>
   );
 }

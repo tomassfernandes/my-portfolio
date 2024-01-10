@@ -17,6 +17,9 @@ export default function Header() {
               <a>About Me</a>
             </li>
             <li className="nav-li">
+              <a>Resume</a>
+            </li>
+            <li className="nav-li">
               <a>Projects</a>
             </li>
             <li className="get-in-touch-btn nav-li">

@@ -1,0 +1,25 @@
+.projects-section {
+  background-color: #535370;
+  width: 100%;
+  padding-top: 20rem;
+}
+
+.projects-section-main-div {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.2rem;
+}
+
+.projects-h2 {
+  font-size: 3.6rem;
+  color: white;
+  font-family: "Noto Serif", serif;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}

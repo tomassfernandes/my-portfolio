@@ -148,14 +148,14 @@ export default function ResumeSection() {
                 </div>
               </div>
 
-              <div className="socials-main-div">
+              <div className="contact-main-div">
                 <h2 className="heading-secondary heading-secondary-white">
-                  Social Links
+                  Contact
                 </h2>
-                <div className="socials-div">
-                  <a className="socials-icon">{linkedinIcon}</a>
-                  <a className="socials-icon">{instaIcon}</a>
-                  <a className="socials-icon">{twitterIcon}</a>
+                <div className="contact-div">
+                  <a className="contact-icon">{linkedinIcon}</a>
+                  <a className="contact-icon">{instaIcon}</a>
+                  <a className="contact-icon">{twitterIcon}</a>
                 </div>
               </div>
             </div>
