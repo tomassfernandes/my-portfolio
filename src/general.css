@@ -62,7 +62,7 @@ html {
   transition: all 0.3s;
 }
 
-.scroll-losange:hover {
+.scroll-rectangle {
   background-color: transparent;
   border: 2px solid #e63355;
   background-color: transparent;

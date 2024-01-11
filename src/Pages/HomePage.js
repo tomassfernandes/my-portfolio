@@ -12,7 +12,7 @@ export default function HomePage() {
       <ProjectsSection />
       <div className="scroll-div">
         <div className="scroll-shape-div">
-          <div className="scroll-losange"></div>
+          <a className="scroll-losange"></a>
         </div>
 
         <div className="scroll-shape-div">
