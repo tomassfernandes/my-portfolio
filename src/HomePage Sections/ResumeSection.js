@@ -31,7 +31,7 @@ export default function ResumeSection() {
   );
 
   return (
-    <section className="resume-section">
+    <section id="resume-section" className="resume-section">
       <div className="resume-inner-div">
         <div className="resume-grid">
           <div className="resume-column">

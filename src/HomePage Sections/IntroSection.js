@@ -7,7 +7,7 @@ export default function IntroSection() {
       <div className="lottie-div">
         <Lottie className="lottie" animationData={animationData} loop={false} />
       </div>
-      <div className="intro-div">
+      <div id="intro-section" className="intro-div">
         <h1 className="heading-primary">Hi, I'm Tomás. Nice to meet you!</h1>
         <p>
           Passionate front-end developer with a keen eye for photo aesthetics.
