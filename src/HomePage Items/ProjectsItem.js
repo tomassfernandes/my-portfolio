@@ -71,7 +71,7 @@ export default function ProjectsItem() {
       rel="noopener noreferrer"
       key={item.key}
       className={`projects-grid-item ${
-        index === hoveredItem ? "not-hovered" : ""
+        hoveredItem !== null && index !== hoveredItem ? "not-hovered" : ""
       }`}
       onMouseEnter={() => setHoveredItem(index)}
       onMouseLeave={() => setHoveredItem(null)}

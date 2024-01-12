@@ -51,12 +51,12 @@
   height: 100%;
   z-index: 1;
   border-radius: 10px;
-  opacity: 1; /* Initially visible */
+  opacity: 0; /* Initially hidden */
   transition: opacity 0.3s;
 }
 
 .projects-grid-item.not-hovered::after {
-  opacity: 0; /* Hide when hovered */
+  opacity: 1; /* Show when not hovered */
 }
 
 .projects-img-div {
