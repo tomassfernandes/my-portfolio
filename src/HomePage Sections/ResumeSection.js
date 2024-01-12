@@ -224,10 +224,18 @@ export default function ResumeSection() {
                   Contact
                 </h2>
                 <div className="contact-div">
+                  <p className="contact-div-text">
+                    <span>Email:</span> fernandesstomas@gmail.com
+                  </p>
+                  <p className="contact-div-text">
+                    <span>Phone:</span> +351 918 040 883
+                  </p>
+                </div>
+                <div className="socials-div">
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="contact-icon"
+                    className="socials-icon"
                     href="https://www.linkedin.com/in/tomas-silva-fernandes/"
                   >
                     {linkedinIcon}
@@ -236,7 +244,7 @@ export default function ResumeSection() {
                     href="https://www.instagram.com/tomassfernandes/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="contact-icon"
+                    className="socials-icon"
                   >
                     {instaIcon}
                   </a>
@@ -244,7 +252,7 @@ export default function ResumeSection() {
                     href="https://twitter.com/tomassfernandes"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="contact-icon"
+                    className="socials-icon"
                   >
                     {twitterIcon}
                   </a>

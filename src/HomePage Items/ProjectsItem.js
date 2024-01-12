@@ -8,6 +8,7 @@ export default function ProjectsItem() {
       language2: "CSS",
       language3: "JS",
       language4: "React",
+      link: "https://car-saver-tomas-fernandes.netlify.app/",
       key: 1,
     },
 
@@ -19,6 +20,7 @@ export default function ProjectsItem() {
       language2: "CSS",
       language3: "JS",
       language4: "React",
+      link: "https://home-nectar-tomas-fernandes.netlify.app/",
       key: 1,
     },
 
@@ -30,6 +32,7 @@ export default function ProjectsItem() {
       language2: "CSS",
       language3: "JS",
       language4: "React",
+      link: "https://my-tennis-tomas-fernandes.netlify.app/",
       key: 1,
     },
 
@@ -41,6 +44,7 @@ export default function ProjectsItem() {
       language2: "CSS",
       language3: "JS",
       language4: "React",
+      link: "https://cake-delight-tomas-fernandes.netlify.app/",
       key: 1,
     },
   ];
@@ -57,7 +61,13 @@ export default function ProjectsItem() {
   );
 
   return data.map((item) => (
-    <div key={item.key} className="projects-grid-item">
+    <a
+      href={item.link}
+      target="_blank"
+      rel="noopener noreferrer"
+      key={item.key}
+      className="projects-grid-item"
+    >
       <div className="projects-img-div">
         <img
           className="projects-img"
@@ -81,6 +91,6 @@ export default function ProjectsItem() {
           <p className="projects-languages-text">{item.language4}</p>
         </div>
       </div>
-    </div>
+    </a>
   ));
 }
