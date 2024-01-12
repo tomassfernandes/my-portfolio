@@ -1,3 +1,5 @@
+import { useEffect, useState } from "react";
+
 export default function ResumeSection() {
   const instaIcon = (
     <svg
@@ -30,6 +32,37 @@ export default function ResumeSection() {
     </svg>
   );
 
+  const [isInViewport, setIsInViewport] = useState(false);
+  const [hasClassApplied, setHasClassApplied] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const rect = document
+        .querySelector(".resume-title-div")
+        .getBoundingClientRect();
+      const isInView = rect.top >= 0 && rect.bottom <= window.innerHeight;
+
+      if (isInView && !hasClassApplied) {
+        setIsInViewport(true);
+        setHasClassApplied(true);
+      } else if (!isInView && hasClassApplied) {
+        // If you want to remove the class when out of view
+        setIsInViewport(false);
+      }
+    };
+
+    // Initial check when the component mounts
+    handleScroll();
+
+    // Add the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [hasClassApplied]);
+
   return (
     <section id="resume-section" className="resume-section">
       <div className="resume-inner-div">
@@ -55,9 +88,27 @@ export default function ResumeSection() {
           </div>
           <div className="resume-column">
             <div className="resume-title-div">
-              <p className="resume-title-p">RESUME</p>
-              <p className="resume-title-p">RESUME</p>
-              <p className="resume-title-p">RESUME</p>
+              <p
+                className={`resume-title-p ${
+                  hasClassApplied ? "resume-title-p-in-view" : ""
+                }`}
+              >
+                RESUME
+              </p>
+              <p
+                className={`resume-title-p resume-title-p-position-1 ${
+                  hasClassApplied ? "position-1-visible" : ""
+                }`}
+              >
+                RESUME
+              </p>
+              <p
+                className={`resume-title-p resume-title-p-position-2 ${
+                  hasClassApplied ? "position-2-visible" : ""
+                }`}
+              >
+                RESUME
+              </p>
             </div>
 
             <div className="skills-main-div">
@@ -121,29 +172,49 @@ export default function ResumeSection() {
                 </h2>
                 <div className="certificates-main-div">
                   <div className="certificates-div">
-                    <div className="certificates-inner-div">
-                      <a className="certificate-link">Front-End Engineer</a>
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      href="https://drive.google.com/file/d/1oVZMGFL5mwxdIFL8iuEtdgV5Zm2Pb2Yt/view"
+                      className="certificates-inner-div"
+                    >
+                      <div className="certificate-link">Front-End Engineer</div>
                       <p>Institution: Codecademy</p>
-                    </div>
-                    <div className="certificates-inner-div">
-                      <a className="certificate-link">
+                    </a>
+                    <a
+                      href="https://www.udemy.com/certificate/UC-19dd611d-57b4-4834-a8f9-fb2c8a267357/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="certificates-inner-div"
+                    >
+                      <div className="certificate-link">
                         The Complete Javascript Course 2023: From Zero to Expert
-                      </a>
+                      </div>
                       <p>Institution: Udemy</p>
-                    </div>
+                    </a>
                   </div>
 
                   <div className="certificates-div">
-                    <div className="certificates-inner-div">
-                      <a>
+                    <a
+                      href="https://www.udemy.com/certificate/UC-d8e9592f-5e66-4545-a32b-1e75ea25a47a/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="certificates-inner-div"
+                    >
+                      <div className="certificate-link">
                         Build Responsive Real-World Websites with HTML and CSS
-                      </a>
+                      </div>
                       <p>Institution: Udemy</p>
-                    </div>
-                    <div className="certificates-inner-div">
-                      <a>English Level B2</a>
+                    </a>
+                    <a
+                      href="https://drive.google.com/file/d/1c7JKq_aNe2Z6hoQMuMN6Z4DSo_yVgrot/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="certificates-inner-div"
+                    >
+                      <div className="certificate-link">English Level B2</div>
                       <p>Institution: Cambridge University</p>
-                    </div>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -153,9 +224,30 @@ export default function ResumeSection() {
                   Contact
                 </h2>
                 <div className="contact-div">
-                  <a className="contact-icon">{linkedinIcon}</a>
-                  <a className="contact-icon">{instaIcon}</a>
-                  <a className="contact-icon">{twitterIcon}</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-icon"
+                    href="https://www.linkedin.com/in/tomas-silva-fernandes/"
+                  >
+                    {linkedinIcon}
+                  </a>
+                  <a
+                    href="https://www.instagram.com/tomassfernandes/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-icon"
+                  >
+                    {instaIcon}
+                  </a>
+                  <a
+                    href="https://twitter.com/tomassfernandes"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="contact-icon"
+                  >
+                    {twitterIcon}
+                  </a>
                 </div>
               </div>
             </div>

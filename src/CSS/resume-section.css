@@ -76,6 +76,32 @@
   font-size: 6.4rem;
   color: transparent;
   -webkit-text-stroke: 1px #4f61b9; /* For Webkit browsers like Chrome and Safari */
+  transition: all 0.8s;
+  opacity: 0;
+}
+
+.resume-title-p-in-view {
+  opacity: 1;
+}
+
+.resume-title-p-position-1 {
+  transform: translateY(-5.7rem);
+  opacity: 0;
+}
+
+.resume-title-p-position-2 {
+  transform: translateY(-11.7rem);
+  opacity: 0;
+}
+
+.position-1-visible {
+  transform: translateY(0rem);
+  opacity: 1;
+}
+
+.position-2-visible {
+  transform: translateY(0rem);
+  opacity: 1;
 }
 
 .skills-main-div {
@@ -174,7 +200,7 @@
   max-width: 20rem;
 }
 
-.certificates-inner-div a {
+.certificate-link {
   font-size: 1.2rem;
   color: white;
   text-decoration: underline;
@@ -183,12 +209,17 @@
   transition: all 0.3s;
 }
 
-.certificates-inner-div a:hover {
+.certificates-inner-div:hover .certificate-link {
   color: #20274a;
 }
 
 .certificates-inner-div p {
   color: rgba(233, 233, 233, 0.769);
+  transition: all 0.3s;
+}
+
+.certificates-inner-div:hover p {
+  color: white;
 }
 
 .contact-main-div {
