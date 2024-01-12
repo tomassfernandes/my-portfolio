@@ -1,3 +1,5 @@
+import { Link } from "react-scroll";
+
 export default function Header() {
   return (
     <header className="header">
@@ -14,16 +16,22 @@ export default function Header() {
         <nav>
           <ul className="nav-ul">
             <li className="nav-li">
-              <a>About Me</a>
+              <Link to="intro-section" smooth={true}>
+                <div>About Me</div>
+              </Link>
             </li>
             <li className="nav-li">
-              <a>Resume</a>
+              <Link to="resume-section" smooth={true}>
+                <div>Resume</div>
+              </Link>
             </li>
             <li className="nav-li">
-              <a>Projects</a>
+              <Link to="projects-section" smooth={true}>
+                <div>Projects</div>
+              </Link>
             </li>
             <li className="get-in-touch-btn nav-li">
-              <a>Get in touch!</a>
+              <div>Get in touch!</div>
             </li>
           </ul>
         </nav>
