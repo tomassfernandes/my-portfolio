@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 export default function ProjectsItem() {
   const data = [
     {
@@ -60,13 +62,19 @@ export default function ProjectsItem() {
     </svg>
   );
 
-  return data.map((item) => (
+  const [hoveredItem, setHoveredItem] = useState(null);
+
+  return data.map((item, index) => (
     <a
       href={item.link}
       target="_blank"
       rel="noopener noreferrer"
       key={item.key}
-      className="projects-grid-item"
+      className={`projects-grid-item ${
+        index === hoveredItem ? "not-hovered" : ""
+      }`}
+      onMouseEnter={() => setHoveredItem(index)}
+      onMouseLeave={() => setHoveredItem(null)}
     >
       <div className="projects-img-div">
         <img
@@ -75,7 +83,6 @@ export default function ProjectsItem() {
           alt={`${item.title} website preview`}
         />
       </div>
-
       <div className="projects-text-div">
         <div className="projects-title-div">
           <h2 className="projects-title">{item.title}</h2>

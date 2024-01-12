@@ -30,6 +30,7 @@
 }
 
 .projects-grid-item {
+  position: relative;
   display: flex;
   margin-top: 2.2rem;
   gap: 2.2rem;
@@ -38,6 +39,24 @@
   transition: all 0.3s;
   border-radius: 10px;
   border-top: 2px solid #535370;
+}
+
+.projects-grid-item::after {
+  content: "";
+  background-color: #5353709e;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 10px;
+  opacity: 1; /* Initially visible */
+  transition: opacity 0.3s;
+}
+
+.projects-grid-item.not-hovered::after {
+  opacity: 0; /* Hide when hovered */
 }
 
 .projects-img-div {
