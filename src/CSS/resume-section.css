@@ -312,6 +312,25 @@
   flex-direction: column;
   gap: 0.8rem;
   align-items: center;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.hobbies-inner-div-2 {
+  transform: translateX(-11rem);
+}
+
+.hobbies-inner-div-3 {
+  transform: translateX(-21rem);
+}
+
+.hobbies-inner-div-4 {
+  transform: translateX(-34rem);
+}
+
+.hobbies-inner-div-final {
+  transform: translateX(0rem);
+  opacity: 1;
 }
 
 .hobbies-icon {

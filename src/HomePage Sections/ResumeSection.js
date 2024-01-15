@@ -32,8 +32,11 @@ export default function ResumeSection() {
     </svg>
   );
 
-  const [isInViewport, setIsInViewport] = useState(false);
-  const [hasClassApplied, setHasClassApplied] = useState(false);
+  const [resumeIsInViewport, setResumeIsInViewport] = useState(false);
+  const [resumeHasClassApplied, setResumeHasClassApplied] = useState(false);
+
+  const [hobbiesIsInViewport, setHobbiesIsInViewport] = useState(false);
+  const [hobbiesHasClassApplied, setHobbiesHasClassApplied] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -42,12 +45,12 @@ export default function ResumeSection() {
         .getBoundingClientRect();
       const isInView = rect.top >= 0 && rect.bottom <= window.innerHeight;
 
-      if (isInView && !hasClassApplied) {
-        setIsInViewport(true);
-        setHasClassApplied(true);
-      } else if (!isInView && hasClassApplied) {
+      if (isInView && !resumeHasClassApplied) {
+        setResumeIsInViewport(true);
+        setResumeHasClassApplied(true);
+      } else if (!isInView && resumeHasClassApplied) {
         // If you want to remove the class when out of view
-        setIsInViewport(false);
+        setResumeIsInViewport(false);
       }
     };
 
@@ -61,7 +64,35 @@ export default function ResumeSection() {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [hasClassApplied]);
+  }, [resumeHasClassApplied]);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const rect = document
+        .querySelector(".hobbies-div")
+        .getBoundingClientRect();
+      const isInView = rect.top >= 0 && rect.bottom <= window.innerHeight;
+
+      if (isInView && !hobbiesHasClassApplied) {
+        setHobbiesIsInViewport(true);
+        setHobbiesHasClassApplied(true);
+      } else if (!isInView && hobbiesHasClassApplied) {
+        // If you want to remove the class when out of view
+        setHobbiesIsInViewport(false);
+      }
+    };
+
+    // Initial check when the component mounts
+    handleScroll();
+
+    // Add the scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, [hobbiesHasClassApplied]);
 
   return (
     <section id="resume-section" className="resume-section">
@@ -90,21 +121,21 @@ export default function ResumeSection() {
             <div className="resume-title-div">
               <p
                 className={`resume-title-p ${
-                  hasClassApplied ? "resume-title-p-in-view" : ""
+                  resumeHasClassApplied ? "resume-title-p-in-view" : ""
                 }`}
               >
                 RESUME
               </p>
               <p
                 className={`resume-title-p resume-title-p-position-1 ${
-                  hasClassApplied ? "position-1-visible" : ""
+                  resumeHasClassApplied ? "position-1-visible" : ""
                 }`}
               >
                 RESUME
               </p>
               <p
                 className={`resume-title-p resume-title-p-position-2 ${
-                  hasClassApplied ? "position-2-visible" : ""
+                  resumeHasClassApplied ? "position-2-visible" : ""
                 }`}
               >
                 RESUME
@@ -285,7 +316,11 @@ export default function ResumeSection() {
                   Hobbies & Interests
                 </h2>
                 <div className="hobbies-div">
-                  <div className="hobbies-inner-div hobbies-inner-div-1 hobbies-inner-div-1-final">
+                  <div
+                    className={`hobbies-inner-div hobbies-inner-div-1 ${
+                      hobbiesHasClassApplied ? "hobbies-inner-div-final" : ""
+                    }`}
+                  >
                     <img
                       className="hobbies-icon"
                       src="/img/tennis-icon.png"
@@ -294,7 +329,11 @@ export default function ResumeSection() {
                     <p>Tennis and padel</p>
                   </div>
 
-                  <div className="hobbies-inner-div hobbies-inner-div-2 hobbies-inner-div-2-final">
+                  <div
+                    className={`hobbies-inner-div hobbies-inner-div-2 ${
+                      hobbiesHasClassApplied ? "hobbies-inner-div-final" : ""
+                    }`}
+                  >
                     <img
                       className="hobbies-icon"
                       src="/img/playstation-icon.png"
@@ -303,7 +342,11 @@ export default function ResumeSection() {
                     <p>Gaming</p>
                   </div>
 
-                  <div className="hobbies-inner-div hobbies-inner-div-3 hobbies-inner-div-3-final">
+                  <div
+                    className={`hobbies-inner-div hobbies-inner-div-3 ${
+                      hobbiesHasClassApplied ? "hobbies-inner-div-final" : ""
+                    }`}
+                  >
                     <img
                       className="hobbies-icon"
                       src="/img/film-roll-icon.png"
@@ -312,7 +355,11 @@ export default function ResumeSection() {
                     <p>Film photography</p>
                   </div>
 
-                  <div className="hobbies-inner-div hobbies-inner-div-4 hobbies-inner-div-4-final">
+                  <div
+                    className={`hobbies-inner-div hobbies-inner-div-4 ${
+                      hobbiesHasClassApplied ? "hobbies-inner-div-final" : ""
+                    }`}
+                  >
                     <img
                       className="hobbies-icon hobbies-beer-icon"
                       src="/img/beer-icon.png"
