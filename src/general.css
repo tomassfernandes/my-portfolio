@@ -79,3 +79,29 @@ html {
 a {
   text-decoration: none;
 }
+
+/* For the main scrollbar track */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust the width as needed */
+}
+
+/* For the scrollbar handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background-color: #3498db; /* Change the color as needed */
+  border-radius: 6px; /* Rounded corners */
+}
+
+/* For the scrollbar track outside the handle */
+::-webkit-scrollbar-track {
+  background-color: none; /* Change the color as needed */
+}
+
+/* For the corners of the scrollbar track outside the handle */
+::-webkit-scrollbar-corner {
+  background-color: none; /* Change the color as needed */
+}
+
+/* For the scrollbar handle when being hovered over */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #1d4864; /* Change the hover color as needed */
+}

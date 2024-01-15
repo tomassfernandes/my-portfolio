@@ -285,7 +285,7 @@ export default function ResumeSection() {
                   Hobbies & Interests
                 </h2>
                 <div className="hobbies-div">
-                  <div className="hobbies-inner-div">
+                  <div className="hobbies-inner-div hobbies-inner-div-1 hobbies-inner-div-1-final">
                     <img
                       className="hobbies-icon"
                       src="/img/tennis-icon.png"
@@ -294,7 +294,7 @@ export default function ResumeSection() {
                     <p>Tennis and padel</p>
                   </div>
 
-                  <div className="hobbies-inner-div">
+                  <div className="hobbies-inner-div hobbies-inner-div-2 hobbies-inner-div-2-final">
                     <img
                       className="hobbies-icon"
                       src="/img/playstation-icon.png"
@@ -303,7 +303,7 @@ export default function ResumeSection() {
                     <p>Gaming</p>
                   </div>
 
-                  <div className="hobbies-inner-div">
+                  <div className="hobbies-inner-div hobbies-inner-div-3 hobbies-inner-div-3-final">
                     <img
                       className="hobbies-icon"
                       src="/img/film-roll-icon.png"
@@ -312,7 +312,7 @@ export default function ResumeSection() {
                     <p>Film photography</p>
                   </div>
 
-                  <div className="hobbies-inner-div">
+                  <div className="hobbies-inner-div hobbies-inner-div-4 hobbies-inner-div-4-final">
                     <img
                       className="hobbies-icon hobbies-beer-icon"
                       src="/img/beer-icon.png"

@@ -60,13 +60,19 @@
 }
 
 .projects-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: fit-content;
   max-width: 15rem;
+  border-radius: 5px;
+  border: 2px solid #87879b;
+  transition: all 0.3s;
 }
 
 .projects-img {
   width: 100%;
-  border-radius: 5px;
-  border: 2px solid #87879b;
   transition: all 0.3s;
 }
 
@@ -123,6 +129,10 @@
 }
 
 .projects-grid-item:hover .projects-img {
+  transform: scale(1.05);
+}
+
+.projects-grid-item:hover .projects-img-div {
   border: 2px solid #b5b7c1;
 }
 
