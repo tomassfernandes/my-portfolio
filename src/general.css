@@ -42,7 +42,7 @@ a {
 
 /* For the scrollbar handle (thumb) */
 ::-webkit-scrollbar-thumb {
-  background-color: #3498db; /* Change the color as needed */
+  background-color: #4f61b9; /* Change the color as needed */
 }
 
 /* For the scrollbar track outside the handle */

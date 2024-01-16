@@ -170,6 +170,18 @@
 --------- LEFT COLUMN ---------
 ------------------------------*/
 
+.education-img-div {
+  position: absolute;
+  top: -21.3rem;
+  left: 0;
+  width: 10rem;
+  z-index: 0;
+}
+
+.education-img {
+  width: 100%;
+}
+
 .certificates-box {
   position: absolute;
   top: -12rem;

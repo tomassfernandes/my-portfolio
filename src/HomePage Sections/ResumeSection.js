@@ -166,6 +166,14 @@ export default function ResumeSection() {
         <div className="resume-inner-div">
           <div className="resume-grid">
             <div className="resume-column">
+              <div className="education-img-div">
+                <img
+                  className="education-img"
+                  src="/img/education.png"
+                  alt="Books and graduation hat"
+                />
+              </div>
+
               <div className="certificates-box">
                 <h2 className="heading-secondary heading-secondary-white">
                   Certificates
