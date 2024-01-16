@@ -30,15 +30,28 @@
 }
 
 .projects-grid-item {
-  position: relative;
   display: flex;
   margin-top: 2.2rem;
   gap: 2.2rem;
   padding: 2.6rem;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 1s;
   border-radius: 10px;
   border-top: 2px solid #535370;
+  opacity: 0;
+}
+
+.projects-grid-item-position-1 {
+  transform: translateX(-150%);
+}
+
+.projects-grid-item-position-2 {
+  transform: translateX(150%);
+}
+
+.projects-grid-item-final-position {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .projects-grid-item::after {
