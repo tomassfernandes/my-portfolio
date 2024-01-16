@@ -224,7 +224,7 @@
 
 .contact-main-div {
   position: absolute;
-  bottom: 1.8rem;
+  bottom: 5.5rem;
   left: 0;
   padding: 3.6rem;
   display: flex;
@@ -247,23 +247,6 @@
   font-weight: 900;
 }
 
-.socials-div {
-  display: flex;
-  align-items: center;
-  gap: 2.2rem;
-}
-
-.socials-icon svg {
-  width: 2rem;
-  height: 2rem;
-  fill: white;
-  cursor: pointer;
-  transition: all 0.3s;
-}
-
-.socials-icon:hover svg {
-  fill: #e63355;
-}
 /*-----------------------------
 --------- RIGHT COLUMN ---------
 ------------------------------*/

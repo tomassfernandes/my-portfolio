@@ -6,6 +6,7 @@ import "./CSS/header.css";
 import "./CSS/intro-section.css";
 import "./CSS/resume-section.css";
 import "./CSS/projects-section.css";
+import "./CSS/footer.css";
 
 import App from "./App";
 
