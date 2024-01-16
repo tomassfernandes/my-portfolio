@@ -31,7 +31,7 @@ export default function Header() {
               </Link>
             </li>
             <li className="get-in-touch-btn nav-li">
-              <div>Get in touch!</div>
+              <div>My CV</div>
             </li>
           </ul>
         </nav>
