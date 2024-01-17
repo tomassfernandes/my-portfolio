@@ -1,5 +1,5 @@
 footer {
-  background-color: #20274a;
+  background-color: white;
   padding: 6.2rem 0;
 }
 
@@ -10,7 +10,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   gap: 2.2rem;
-  background-color: #20274a;
+  background-color: white;
 }
 
 .footer-text-div {
@@ -22,13 +22,13 @@ footer {
 
 .footer-text-name {
   font-size: 2rem;
-  color: white;
+  color: #20274a;
   font-weight: 900;
 }
 
 .footer-text {
   font-size: 1.4rem;
-  color: rgb(255, 255, 255);
+  color: #20274ac0;
   line-height: 1.7;
 }
 
@@ -39,7 +39,7 @@ footer {
 }
 
 .socials-text {
-  color: white;
+  color: #20274a;
   font-size: 2rem;
   font-weight: 900;
 }
@@ -53,7 +53,7 @@ footer {
 .socials-icon svg {
   width: 2rem;
   height: 2rem;
-  fill: white;
+  fill: #20274a;
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -66,7 +66,7 @@ footer {
   width: 90%;
   margin: 0 auto;
   height: 0.05rem;
-  background-color: rgba(255, 255, 255, 0.571);
+  background-color: #20274a54;
   margin-top: 6rem;
 }
 
@@ -75,7 +75,7 @@ footer {
 }
 
 .footer-copyright-div p {
-  color: white;
+  color: #20274a;
   text-align: center;
   font-size: 1.1rem;
 }
