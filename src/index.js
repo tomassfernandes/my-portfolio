@@ -7,6 +7,7 @@ import "./CSS/intro-section.css";
 import "./CSS/resume-section.css";
 import "./CSS/projects-section.css";
 import "./CSS/footer.css";
+import "./CSS/queries.css";
 
 import App from "./App";
 

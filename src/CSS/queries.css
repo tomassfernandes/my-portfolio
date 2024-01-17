@@ -1,0 +1,110 @@
+/*---------------------------------------------
+------------- MAX WIDTH 77EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 77em) {
+  .resume-inner-div {
+    max-width: 95%;
+  }
+
+  .footer-div {
+    max-width: 90%;
+  }
+
+  .footer-line {
+    width: 95%;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 67EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 67em) {
+  .intro-div {
+    padding: 12rem 6rem;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 55EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 55em) {
+  .resume-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .resume-title-div {
+    margin-top: -21.5rem;
+  }
+
+  .certificates-box {
+    left: 40rem;
+    padding: 1.2rem;
+  }
+
+  .contact-main-div {
+    bottom: -20rem;
+  }
+
+  .hobbies-main-div {
+    align-self: flex-end;
+    margin-top: -2.2rem;
+  }
+
+  .resume-column-2 {
+    padding: 3.6rem 0rem;
+  }
+
+  .language-main-div {
+    margin-left: 3.6rem;
+    margin-top: -8rem;
+  }
+
+  .education-img-div {
+    display: none;
+  }
+
+  .education-img {
+    display: none;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 49EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 49em) {
+  .resume-title-div {
+    margin-right: 0rem;
+  }
+
+  .certificates-box {
+    position: static;
+    padding: 3.6rem;
+  }
+
+  .contact-main-div {
+    display: none;
+  }
+
+  .contact-main-div-footer {
+    display: block;
+  }
+
+  .language-main-div {
+    margin-left: 3.6rem;
+    margin-top: -4rem;
+  }
+
+  .hobbies-main-div {
+    align-self: self-start;
+    margin-top: 0rem;
+    padding: 0rem 3.6rem;
+  }
+}

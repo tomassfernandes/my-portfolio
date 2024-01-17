@@ -5,7 +5,7 @@ export default function ProjectsItem() {
     {
       title: "Car Saver",
       img: "/img/car-saver-website-img.png",
-      text: "I am proud to present the Imaginary Auto Marketplace a fictional website designed to showcase my skills in web development using React, JavaScript, HTML, and CSS. This project focuses on creating a user-friendly platform for exploring and browsing second-hand cars, even though the actual purchase functionality is omitted as it remains a conceptual exercise.",
+      text: "Car Saver, a website built with React, has a sleek and intuitive interface. You can seamlessly switch between different car models, navigate through the testimonials slider and click on the user-friendly FAQ section, and witness a smooth expansion of detailed answers.",
       language1: "HTML",
       language2: "CSS",
       language3: "JS",
@@ -17,7 +17,7 @@ export default function ProjectsItem() {
     {
       title: "Home Nectar",
       img: "/img/home-nectar-website-img.png",
-      text: "I am proud to present the Imaginary Auto Marketplace a fictional website designed to showcase my skills in web development using React, JavaScript, HTML, and CSS. This project focuses on creating a user-friendly platform for exploring and browsing second-hand cars, even though the actual purchase functionality is omitted as it remains a conceptual exercise.",
+      text: "Home Nectar welcomes you with a visually captivating layout that harmonizes the precision of Flexbox and the flexibility of Grid, an aesthetic experience that mirrors the natural beauty of the honey it showcases. Immerse yourself in the interactive shopping cart experience on Home Nectar. While you can't make actual purchases, the dynamic cart allows you to simulate the delightful process of selecting your favorite honey.",
       language1: "HTML",
       language2: "CSS",
       language3: "JS",
@@ -29,7 +29,7 @@ export default function ProjectsItem() {
     {
       title: "My Tennis",
       img: "/img/my-tennis-website-img.png",
-      text: "I am proud to present the Imaginary Auto Marketplace a fictional website designed to showcase my skills in web development using React, JavaScript, HTML, and CSS. This project focuses on creating a user-friendly platform for exploring and browsing second-hand cars, even though the actual purchase functionality is omitted as it remains a conceptual exercise.",
+      text: "My Tennis stands out as a dynamic multipage website, crafted with precision and powered by React. Explore all club information effortlessly, from membership details to court facilities. The platform allows users to check class availability throughout the week by simply clicking on the respective days.",
       language1: "HTML",
       language2: "CSS",
       language3: "JS",
@@ -41,7 +41,7 @@ export default function ProjectsItem() {
     {
       title: "Cake Delight",
       img: "/img/cake-delight-website-img.png",
-      text: "I am proud to present the Imaginary Auto Marketplace a fictional website designed to showcase my skills in web development using React, JavaScript, HTML, and CSS. This project focuses on creating a user-friendly platform for exploring and browsing second-hand cars, even though the actual purchase functionality is omitted as it remains a conceptual exercise.",
+      text: "Cake Delight offers a visually stunning experience for cake enthusiasts.  Choose between All, Vegan, and Vegetarian categories to tailor your cake selection, also allowing you to add your preferred ingredients to your chosen cakes. While you can't make actual purchases, the intuitive design allows you to curate your dream cake collection, providing a taste of the excitement of the real shopping experience.",
       language1: "HTML",
       language2: "CSS",
       language3: "JS",

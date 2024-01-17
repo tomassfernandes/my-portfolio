@@ -40,6 +40,18 @@ export default function Footer() {
             compelling and user-centric Frontend experiences for websites and
             web applications.
           </p>
+
+          <div className="contact-main-div-footer">
+            <p className="contact-footer-text">Contact</p>
+            <div className="contact-div-footer">
+              <p className="contact-div-footer-text">
+                <span>Email:</span> fernandesstomas@gmail.com
+              </p>
+              <p className="contact-div-footer-text">
+                <span>Phone:</span> +351 918 040 883
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="socials-main-div">
