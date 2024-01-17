@@ -58,3 +58,20 @@
   border: 2px solid #e63355;
   color: #333;
 }
+
+header .nav-btn {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #450f19;
+  display: none;
+}
+
+header .nav-close-btn {
+  color: white;
+  position: absolute;
+  top: 2rem;
+  right: 5.3rem;
+}
