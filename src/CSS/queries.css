@@ -176,4 +176,217 @@
   .language-main-div {
     margin-left: 0.8rem;
   }
+
+  .intro-div {
+    padding: 12rem 2rem;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 39EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 39em) {
+  .resume-column {
+    align-items: center;
+    justify-content: center;
+    padding: 2.2rem 0.8rem;
+  }
+
+  .heading-secondary {
+    text-align: center;
+  }
+
+  .resume-education-div {
+    margin-top: 10rem;
+  }
+
+  .hobbies-main-div {
+    align-self: center;
+  }
+
+  .language-main-div {
+    margin-left: 0rem;
+    margin-top: 0rem;
+  }
+
+  .certificates-box {
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-main-div {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .resume-title-div {
+    position: absolute;
+    top: -8rem;
+    left: 0;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 31EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 31em) {
+  .header-main-div {
+    max-width: 100%;
+  }
+  .lottie {
+    width: 80%;
+    margin-bottom: 0.2rem;
+  }
+
+  .hobbies-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.2rem;
+  }
+
+  .projects-grid-item {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-img-div {
+    max-width: 20rem;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 23EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 23em) {
+  .resume-education-text-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-div {
+    flex-direction: column;
+    gap: 2.2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-inner-div {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .certificates-div {
+    flex-direction: column;
+    width: 95%;
+  }
+
+  .footer-div {
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 19EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 19em) {
+  .header-main-div {
+    padding: 2rem 1.2rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+
+  .lottie {
+    margin-bottom: 0.4rem;
+    width: 90%;
+  }
+
+  .intro-div {
+    padding: 6rem 2rem;
+  }
+
+  .resume-education-div {
+    margin-top: 13rem;
+  }
+
+  .resume-title-div {
+    top: -10rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .skills-writen-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .skills-writen-inner-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .certificates-box {
+    padding: 2.2rem;
+  }
+
+  .projects-h2 {
+    text-align: center;
+  }
+
+  .projects-languages-div {
+    flex-direction: column;
+  }
+}
+
+/*---------------------------------------------
+------------- MAX WIDTH 16EM-------------------
+-----------------------------------------------*/
+
+@media (max-width: 16em) {
+  .code-icon-img {
+    display: none;
+  }
+
+  .logo-text {
+    text-align: center;
+  }
+
+  .resume-title-div {
+    top: -5.7rem;
+  }
+
+  .resume-title-p {
+    font-size: 4.2rem;
+  }
+
+  .resume-education-div {
+    margin-top: 10rem;
+  }
+
+  .language-div {
+    justify-content: center;
+    gap: 1.2rem;
+    flex-direction: column;
+  }
+
+  .language-inner-div {
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+  }
+
+  .hobbies-div {
+    grid-template-columns: 1fr;
+  }
 }

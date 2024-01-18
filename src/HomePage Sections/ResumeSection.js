@@ -71,12 +71,15 @@ export default function ResumeSection() {
             <div className="resume-education-div">
               <h2 className="heading-secondary">Education</h2>
               <div className="resume-education-text-div">
-                <img
-                  className="resume-bullet-point"
-                  src="/img/bullet-point-icon.png"
-                  alt="bullet point icon"
-                />
-                <p className="resume-education-date">2017-2021</p>
+                <div className="resume-education-bullet-point-div">
+                  <img
+                    className="resume-bullet-point"
+                    src="/img/bullet-point-icon.png"
+                    alt="bullet point icon"
+                  />
+                  <p className="resume-education-date">2017-2021</p>
+                </div>
+
                 <div className="resume-education-text-inner-div">
                   <p className="resume-education-institution-p">
                     University of Coimbra, Portugal

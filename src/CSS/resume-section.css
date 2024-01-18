@@ -38,6 +38,11 @@
   margin-top: 1.2rem;
 }
 
+.resume-education-bullet-point-div {
+  display: flex;
+  gap: 0.8rem;
+}
+
 .resume-bullet-point {
   height: 2rem;
   width: 2rem;
