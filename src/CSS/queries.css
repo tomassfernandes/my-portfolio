@@ -248,6 +248,24 @@
     gap: 2.2rem;
   }
 
+  .hobbies-inner-div-2 {
+    transform: translateX(-13rem);
+  }
+
+  .hobbies-inner-div-3 {
+    transform: translateX(0rem);
+    transform: translateY(-10rem);
+  }
+
+  .hobbies-inner-div-4 {
+    transform: translate(-13rem, -10rem);
+  }
+
+  .hobbies-inner-div-final {
+    transform: translate(0rem, 0rem);
+    opacity: 1;
+  }
+
   .projects-grid-item {
     flex-direction: column;
     align-items: center;
@@ -388,5 +406,22 @@
 
   .hobbies-div {
     grid-template-columns: 1fr;
+  }
+
+  .hobbies-inner-div-2 {
+    transform: translate(0rem, -10rem);
+  }
+
+  .hobbies-inner-div-3 {
+    transform: translate(0rem, -20rem);
+  }
+
+  .hobbies-inner-div-4 {
+    transform: translate(0rem, -30rem);
+  }
+
+  .hobbies-inner-div-final {
+    transform: translate(0rem, 0rem);
+    opacity: 1;
   }
 }
