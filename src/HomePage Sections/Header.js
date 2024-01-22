@@ -71,8 +71,15 @@ export default function Header() {
                 <div>Projects</div>
               </Link>
             </li>
-            <li className="get-in-touch-btn nav-li">
-              <div>My CV</div>
+            <li className="nav-li get-in-touch-btn">
+              <a
+                className="get-in-touch-btn-a"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1jtdN_fe3EQ92JMr2jXtGbrRYt5Wj4W_-/view?usp=sharing"
+              >
+                My CV
+              </a>
             </li>
           </ul>
           <button className="nav-btn nav-close-btn" onClick={showNavBar}>

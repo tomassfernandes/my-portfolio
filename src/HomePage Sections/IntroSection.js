@@ -8,6 +8,14 @@ export default function IntroSection() {
         <Lottie className="lottie" animationData={animationData} loop={false} />
       </div>
       <div id="intro-section" className="intro-div">
+        <div className="profile-photo-div">
+          <img
+            className="profile-photo-img"
+            src="/img/profile-pic-2.png"
+            alt="My profile"
+          />
+        </div>
+
         <h1 className="heading-primary">Hi, I'm Tomás. Nice to meet you!</h1>
         <p>
           I'm a front-end developer on a journey that kicked off just over a

@@ -22,6 +22,15 @@
   gap: 1.2rem;
 }
 
+.profile-photo-div {
+  width: 20rem;
+}
+
+.profile-photo-img {
+  width: 100%;
+  border-radius: 50%;
+}
+
 .heading-primary {
   color: white;
   font-size: 3.2rem;

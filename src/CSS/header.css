@@ -59,6 +59,15 @@
   color: #333;
 }
 
+.get-in-touch-btn-a {
+  color: white;
+  transition: all 0.3s;
+}
+
+.get-in-touch-btn:hover .get-in-touch-btn-a {
+  color: #e63355;
+}
+
 header .nav-btn {
   height: 3rem;
   width: 3rem;
