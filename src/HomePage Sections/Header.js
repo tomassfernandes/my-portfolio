@@ -76,7 +76,7 @@ export default function Header() {
                 className="get-in-touch-btn-a"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1jtdN_fe3EQ92JMr2jXtGbrRYt5Wj4W_-/view?usp=sharing"
+                href="https://drive.google.com/file/d/164p1MwGYNYpktUmuQaWC5GABKB3LELHk/view?usp=sharing"
               >
                 My CV
               </a>
